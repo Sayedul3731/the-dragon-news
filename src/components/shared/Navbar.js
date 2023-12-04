@@ -80,7 +80,6 @@ function Navbar() {
                             </IconButton>
                         </Stack>
                     </Box>
-
                 </Toolbar>
             </Container>
         </AppBar>
