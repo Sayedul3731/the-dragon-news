@@ -26,7 +26,7 @@ const navItems = [
     },
     {
         route: "Category",
-        path: "/category"
+        path: "/categories/news?categnews"
     },
     {
         route: "News",
@@ -48,7 +48,7 @@ function Navbar() {
         <>
         <Header></Header>
             <AppBar position="static" className='bg-black'>
-                <Container maxWidth="xl">
+                <Container maxWidth="lg">
                     <Toolbar disableGutters>
                         <Image src={logoImage} width={100} height={100} alt='logo' />
                         <Box className="w-full text-center" >
